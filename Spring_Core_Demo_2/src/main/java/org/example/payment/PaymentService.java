@@ -1,10 +1,5 @@
-package org.example;
+package org.example.payment;
 
-import org.springframework.stereotype.Component;
-
-@Component
-public class PaymentService {
-    public void pay(){
-        System.out.println("Payment done");
-    }
+public interface PaymentService {
+    void pay();
 }
